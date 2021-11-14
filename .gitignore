@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Book Mining of Massive Datasets.
+.book_mining_of_massive_datasets
