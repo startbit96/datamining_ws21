@@ -98,14 +98,15 @@ In den Namen des Branches bitte auch das Thema mit aufnehmen.
 `git checkout -b '<branch-name>'`
 4. Host: Vorlagen-Notebook in den Notebook-Ordner kopieren und je nach Thema umbenennen.  
 `cp notebooks/template.ipynb notebooks/<notebook-name>.ipynb`
-5. Host: Projektordner in Visual Studio Code öffnen. Dazu entweder Visual Studio Code öffnen und "Datei > Ordner öffnen" anwählen oder über das Terminal öffnen (vorher in den Projekt-Ordner navigieren).  
+5. Host: Projektordner in Visual Studio Code öffnen. Dazu entweder Visual Studio Code öffnen und "Datei -> Ordner öffnen" anwählen oder über das Terminal öffnen (vorher in den Projekt-Ordner navigieren).  
 `code .`
-5. Host: Live-Share-Session starten und Link an die anderen Gruppenmitglieder verteilen.  
-<img src="./assets/start_live_share.gif" />  
-6. Gäste: Live-Share-Session des Hosts beitreten (ggf. noch vom Host zu bestätigen).  
-<img src="./assets/join_live_share.gif" />  
-7. Alle: Notebook gemeinschaftlich befüllen (Vorlagen-Notebook kann als Anhaltspunkt für die inhaltliche Struktur genutzt werden).
+6. Host: Live-Share-Session starten und Link an die anderen Gruppenmitglieder verteilen.  
+<img src="./assets/start_live_share.gif" />
 
+7. Gäste: Live-Share-Session des Hosts beitreten (ggf. noch vom Host zu bestätigen).  
+<img src="./assets/join_live_share.gif" />
+
+8. Alle: Notebook gemeinschaftlich befüllen (Vorlagen-Notebook kann als Anhaltspunkt für die inhaltliche Struktur genutzt werden).
 9. Host: Änderungen commiten (ggf. weitere Dateien bei `git add ...` hinzufügen).  
 `git add <notebook-name>.ipynb`  
 `git commit -m "<Commit beschreiben (was wurde geändert?)>"`
