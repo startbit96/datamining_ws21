@@ -105,6 +105,7 @@ In den Namen des Branches bitte auch das Thema mit aufnehmen.
 6. Gäste: Live-Share-Session des Hosts beitreten (ggf. noch vom Host zu bestätigen).  
 <img src="./assets/join_live_share.gif" />  
 7. Alle: Notebook gemeinschaftlich befüllen (Vorlagen-Notebook kann als Anhaltspunkt für die inhaltliche Struktur genutzt werden).
+
 9. Host: Änderungen commiten (ggf. weitere Dateien bei `git add ...` hinzufügen).  
 `git add <notebook-name>.ipynb`  
 `git commit -m "<Commit beschreiben (was wurde geändert?)>"`
