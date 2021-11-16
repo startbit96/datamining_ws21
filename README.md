@@ -10,7 +10,7 @@ Als Grundlage für die Vorlesung dient das Buch ["Mining of Massive Datasets"](h
 
 Auf der verlinkten Webseite stehen das Buch, Original-Folien sowie Aufzeichnungen der Vorlesung an der Stanford-Universität zum Download bereit. 
 
-Da jedes Buchkapitel einzeln heruntergeladen werden muss, befindet sich im res-Unterverzeichnis dieses Repositories ein bash-Skript, welches jedes Kapitel automatisiert herunterlädt.
+Da jedes Buchkapitel einzeln heruntergeladen werden muss, befindet sich im res-Unterverzeichnis dieses Repositories ein bash-Skript, welches jedes Kapitel automatisiert herunterlädt.  
 `bash res/fetch_book_mmds.sh`
 
 #### Kapitel / Lehrinhalte der Vorlesung:
@@ -36,18 +36,18 @@ Die bestehenden Jupyter-Notebooks im Unterverzeichnis notebooks können entweder
 #### Jupyter-Notebooks auf dem eigenen Rechner verwenden
 Hierfür muss eine Python-Umgebung installiert sein. Sollte keine installiert sein, empfiehlt es sich, [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) aufzusetzen.
 
-1. Repository clonen.
-`git clone https://github.com/startbit96/datamining_ws21.git`
+1. Repository clonen.  
+`git clone https://github.com/startbit96/datamining_ws21.git`  
 (oder über den Download-Button herunterladen)
 
-2. Benötigte Python-Bibliotheken installieren.
-`cd datamining_ws21`
-`pip install -r requirements.txt`
+2. Benötigte Python-Bibliotheken installieren.  
+`cd datamining_ws21`  
+`pip install -r requirements.txt`  
 
-3. Jupyter-Notebook starten.
+3. Jupyter-Notebook starten.  
 `jupyter notebook`
 
-Nun öffnet sich ein Browser-Fenster, in welchem die Notebooks geöffnet und bearbeitet werden können.
+Nun öffnet sich ein Browser-Fenster, in welchem die Notebooks geöffnet und bearbeitet werden können.  
 Änderungen bleiben lokal erhalten.
 
 #### Jupyter-Notebooks über Binder verwenden
@@ -55,7 +55,7 @@ Nun öffnet sich ein Browser-Fenster, in welchem die Notebooks geöffnet und bea
 
 Dies hat den Vorteil, dass die Notebooks direkt verwendet werden können. Jedoch werden eigene Änderungen an den Notebooks nicht abgespeichert und gehen nach Beenden der Session verloren.
 
-Um die Notebooks über den Binder-Service zu verwenden, ist folgende URL aufzurufen:
+Um die Notebooks über den Binder-Service zu verwenden, ist folgende URL aufzurufen:  
 https://mybinder.org/v2/gh/startbit96/datamining_ws21/HEAD
 
 ## Pair-Programming-Sessions
